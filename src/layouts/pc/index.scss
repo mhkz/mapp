@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    .header {
+        flex: 1;
+        background-color: orange;
+    }
+    .footer {
+        flex: 1;
+        background-color: plum;
+    }
+    .main {
+        flex: 10;
+        background-color: palegreen;
+    }
+    
+}

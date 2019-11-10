@@ -1,11 +1,12 @@
+
 import React from 'react';
 import "./index.scss"
 const logo: string = "";
 
-const Mheader: React.FC = () => {
+const Mfooter: React.FC = () => {
     return (
-        <header>
-            <div className="header-container">
+        <footer>
+            <div className="footer-container">
                 <div>
                     {logo}
                 </div>
@@ -13,7 +14,7 @@ const Mheader: React.FC = () => {
                     白日依山尽，黄河入海流
                 </div>
             </div>
-        </header>
+        </footer>
     )
 }
-export default Mheader;
+export default Mfooter;

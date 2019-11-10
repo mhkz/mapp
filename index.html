@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        .wrapper {
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+        }
+        .header {
+            flex: 1;
+            background-color: orange;
+        }
+        .footer {
+            flex: 1;
+            background-color: plum;
+        }
+        .main {
+             flex: auto;
+            background-color: palegreen;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">1</div>
+        <div class="main">2</div>
+        <div class="footer">3</div>
+    </div>
+</body>
+</html>
+

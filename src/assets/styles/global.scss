@@ -9,5 +9,10 @@ html, body {
     width: 100%;
 }
 body {
+    width: 100%;
     background-color: $dark-mode;
+    color: $white;
+}
+#root{
+    height: 100%;
 }
